@@ -4,10 +4,9 @@
   "main": "src/server.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --watch src/server.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Itamar Junior",
   "license": "ISC",
   "description": "API de gerenciamento de tickets de suporte."
 }
