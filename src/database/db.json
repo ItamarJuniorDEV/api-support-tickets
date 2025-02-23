@@ -8,6 +8,24 @@
       "status": "open",
       "created_at": "2025-02-23T03:37:40.570Z",
       "updated_at": "2025-02-23T03:37:40.570Z"
+    },
+    {
+      "id": "88056b7e-7937-48e9-8f12-ccfe55bc96f8",
+      "equipment": "Computador",
+      "description": "Computador não liga.",
+      "user_name": "Itamar Junior",
+      "status": "open",
+      "created_at": "2025-02-23T03:46:10.617Z",
+      "updated_at": "2025-02-23T03:46:10.617Z"
+    },
+    {
+      "id": "a55e634a-fb93-48ef-86b0-5defe51849e1",
+      "equipment": "Teclado",
+      "description": "A tecla de espaço não funciona",
+      "user_name": "joão Luis",
+      "status": "open",
+      "created_at": "2025-02-23T03:47:17.987Z",
+      "updated_at": "2025-02-23T03:47:17.987Z"
     }
   ]
 }
