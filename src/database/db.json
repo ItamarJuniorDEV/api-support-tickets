@@ -1,1 +1,13 @@
-{}
+{
+  "tickets": [
+    {
+      "id": "b6de7e24-4bd0-4d1f-a283-8eceb2f7d1a9",
+      "equipment": "Computador",
+      "description": "Computador não liga.",
+      "user_name": "Itamar Junior",
+      "status": "open",
+      "created_at": "2025-02-23T03:37:40.570Z",
+      "updated_at": "2025-02-23T03:37:40.570Z"
+    }
+  ]
+}

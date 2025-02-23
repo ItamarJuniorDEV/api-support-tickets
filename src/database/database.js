@@ -21,4 +21,15 @@ export class Database {
       "utf-8"
     ).catch((err) => console.error("Erro ao criar db.json:", err));
   }
+
+  insert(table, data) {
+    if (Array.isArray(this.#database[table])) {
+      this.#database[table].push(data);
+    } else {
+      this.#database[table] = [data];
+    }
+
+    this.#persist();
+    
+  }
 }
