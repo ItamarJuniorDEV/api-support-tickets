@@ -2,5 +2,11 @@ export function update({ req, res, database }) {
   const { id } = req.params;
   const { equipment, description } = req.body;
 
-  return res.writeHead(200).end();
+  database.update("tickets", id, {
+    equipment,
+    description,
+    updated_at: new Date(),
+  });
+
+  return res.end();
 }
