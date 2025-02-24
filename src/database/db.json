@@ -26,6 +26,15 @@
       "status": "open",
       "created_at": "2025-02-23T03:47:17.987Z",
       "updated_at": "2025-02-23T03:47:17.987Z"
+    },
+    {
+      "id": "1ffe2f0e-40d5-4e0e-85e7-0f81b8011308",
+      "equipment": "Monitor",
+      "description": "Monitor desliga derrepente.",
+      "user_name": "Maria",
+      "status": "closed",
+      "created_at": "2025-02-24T19:17:51.670Z",
+      "updated_at": "2025-02-24T19:17:51.670Z"
     }
   ]
 }
