@@ -2,7 +2,7 @@
 
 API RESTful simples para gerenciamento de tickets de suporte técnico, construída com Node.js puro, sem frameworks externos.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - Criação de tickets de suporte
 - Listagem de tickets (com filtro por status)
@@ -11,14 +11,14 @@ API RESTful simples para gerenciamento de tickets de suporte técnico, construí
 - Remoção de tickets
 - Persistência de dados em arquivo JSON
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - Node.js
 - JavaScript (ESM)
 - File System API (fs)
 - HTTP Server nativo
 
-## 📋 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 ├── src/
@@ -44,7 +44,7 @@ API RESTful simples para gerenciamento de tickets de suporte técnico, construí
 └── server.js
 ```
 
-## 🔄 Rotas da API
+## Rotas da API
 
 | Método | Rota | Descrição |
 |--------|------|-----------|
@@ -54,7 +54,7 @@ API RESTful simples para gerenciamento de tickets de suporte técnico, construí
 | PATCH | `/tickets/:id/close` | Fecha um ticket com solução |
 | DELETE | `/tickets/:id` | Remove um ticket |
 
-## 📄 Formato dos Dados
+## Formato dos Dados
 
 ### Ticket
 ```json
@@ -70,7 +70,7 @@ API RESTful simples para gerenciamento de tickets de suporte técnico, construí
 }
 ```
 
-## 🚦 Como Executar
+## Como Executar
 
 1. Clone este repositório
 2. Navegue até a pasta do projeto
@@ -80,7 +80,7 @@ node server.js
 ```
 4. A API estará disponível em `http://localhost:3333`
 
-## 📝 Exemplos de Uso
+## Exemplos de Uso
 
 ### Criar um ticket
 ```bash
@@ -101,7 +101,7 @@ curl -X PATCH http://localhost:3333/tickets/ID_DO_TICKET/close \
   -d '{"solution": "Trocamos o equipamento"}'
 ```
 
-## 📌 Notas
+## Notas
 
 - A API utiliza um sistema de rotas personalizado com suporte a parâmetros de rota e query strings
 - Os dados são persistidos em um arquivo JSON local (db.json)
